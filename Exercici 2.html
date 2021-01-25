@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lletres repetides 2</title>
+
+
+<script>
+
+
+
+
+
+
+
+let name=["S","A","R","4","A"];
+let letras= 0;
+let x =name.toString();
+
+console.log('El nombre es : '+x);
+
+for(i = 0; i < name.length; i++){ 
+
+        switch(name [i]) {
+            case 'A': 
+                letras=1;
+                break;
+            case 'E' :
+                letras=1;
+                break;
+            case 'I':
+            letras=1;
+                break;
+            case 'O':
+            letras=1;
+                break;
+
+            case 'U':
+            letras=1;
+                break;
+
+            case'R':
+            letras=-1;
+            break;
+
+            case'4':
+            letras='numero';
+            break;
+
+           
+            
+        }
+
+
+if(letras>=1){
+    console.log("He trobat la VOCAL: "+name[i] );
+    }  else if(letras<=0){
+    console.log("He trobat la CONSONANT: "+name[i] );
+}   else if(letras==='numero'){
+    console.log("soy un número: "+name[i] );
+}
+
+
+    
+}   
+ 
+
+
+
+
+    
+
+
+
+ 
+ 
+
+
+
+</script>
+
+</head>
+<body>
+<h1>Lletres repetides 2 </h1>
+
+</body>
+</html>
