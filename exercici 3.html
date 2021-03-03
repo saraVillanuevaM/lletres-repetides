@@ -8,15 +8,28 @@
 
 <script>
 
-var nombre = ["S", "A", "R", "A"];
+
+// function(letras){repetidos[letras] = (repetidos[letras] || 0) + 1; };
+
+
+// console.log(letras);
 
 
 
- var repetidos = {};
- var name = nombre.map(function(numero){repetidos[numero] = (repetidos[numero] || 0) + 1; });
 
+const nombre=["S", "A", "R", "A"]
+let i=0;
 
-console.log(repetidos);
+const letras= nombre.map (letra => {
+  
+ if (letra === letra) { return i + 1  }
+ else {return i - 1}
+
+ 
+}
+
+)
+
 
 
 
